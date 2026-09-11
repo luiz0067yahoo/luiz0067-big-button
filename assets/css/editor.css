@@ -1,0 +1,154 @@
+/**
+ * luiz0067 Big Button - Estilos Específicos do Editor Gutenberg
+ *
+ * @package Luiz0067_Big_Button
+ * @version 1.0.0
+ */
+
+/* Container geral do bloco dentro do editor */
+.luiz0067-big-button-container {
+	position: relative;
+	width: 100%;
+	margin: 1rem 0;
+}
+
+/* Wrapper de cada botão no editor */
+.editor-btn-wrapper {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 6px;
+	vertical-align: top;
+	box-sizing: border-box;
+}
+
+/* Ajusta as colunas dentro do editor */
+.big-button-cols-1 .editor-btn-wrapper {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.big-button-cols-2 .editor-btn-wrapper {
+	flex: 0 0 calc(50% - 12px);
+	max-width: calc(50% - 12px);
+}
+
+.big-button-cols-3 .editor-btn-wrapper {
+	flex: 0 0 calc(33.333% - 12px);
+	max-width: calc(33.333% - 12px);
+}
+
+.big-button-cols-4 .editor-btn-wrapper {
+	flex: 0 0 calc(25% - 12px);
+	max-width: calc(25% - 12px);
+}
+
+.big-button-cols-5 .editor-btn-wrapper {
+	flex: 0 0 calc(20% - 12px);
+	max-width: calc(20% - 12px);
+}
+
+/* Botão visual no editor */
+.editor-btn-wrapper .btn-btn {
+	width: 100%;
+	min-height: 52px;
+	padding: 10px 18px;
+	cursor: text;
+	user-select: text;
+	position: relative;
+}
+
+/* Área de RichText dentro do botão */
+.editor-btn-wrapper .btn-btn .rich-text {
+	min-width: 80px;
+	outline: none;
+}
+
+/* Barra inline de ações do botão (URL + botões + / -) */
+.editor-big-button-actions {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	margin-top: 6px;
+	background: #1e1e1e;
+	padding: 4px 6px;
+	border-radius: 4px;
+	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+	max-width: 100%;
+	box-sizing: border-box;
+}
+
+/* Campo rápido de link inline */
+.editor-big-button-actions .link-quick-input {
+	height: 26px;
+	padding: 2px 8px;
+	font-size: 11px;
+	color: #ffffff;
+	background: #2d2d2d;
+	border: 1px solid #444444;
+	border-radius: 3px;
+	width: 160px;
+	outline: none;
+	transition: border-color 0.2s ease;
+}
+
+.editor-big-button-actions .link-quick-input:focus {
+	border-color: #01913a;
+	background: #333333;
+}
+
+.editor-big-button-actions .link-quick-input::placeholder {
+	color: #888888;
+}
+
+/* Botões de Ação (+ e -) */
+.editor-big-button-actions .editor-action-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	width: 24px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	background: #000000;
+	color: #ffffff;
+	border: 1px solid #555555;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 1;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+.editor-big-button-actions .editor-action-btn.btn-add:hover {
+	background: #01913a;
+	border-color: #01913a;
+	color: #ffffff;
+}
+
+.editor-big-button-actions .editor-action-btn.btn-remove:hover {
+	background: #d63638;
+	border-color: #d63638;
+	color: #ffffff;
+}
+
+/* Estilos no painel lateral do Inspetor (InspectorControls) */
+.luiz0067-inspector-btn-item {
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+
+.luiz0067-inspector-btn-label {
+	margin-top: 0;
+	margin-bottom: 8px;
+	font-size: 13px;
+	color: #1e1e1e;
+}
+
+.luiz0067-inspector-separator {
+	margin: 12px 0 6px 0;
+	border: 0;
+	border-top: 1px solid #e2e8f0;
+}

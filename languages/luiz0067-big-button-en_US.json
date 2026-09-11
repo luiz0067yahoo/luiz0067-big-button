@@ -1,0 +1,165 @@
+{
+  "translation-revision-date": "2026-09-11 17:00:00+0000",
+  "generator": "WP-CLI/2.x",
+  "source": "assets/js/block.js",
+  "domain": "luiz0067-big-button",
+  "locale_data": {
+    "luiz0067-big-button": {
+      "": {
+        "domain": "luiz0067-big-button",
+        "lang": "en_US",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Botões Grandes": [
+        "Big Buttons"
+      ],
+      "Quantidade de até 5 botões por linha com links e estilos personalizáveis.": [
+        "Up to 5 buttons per line with customizable links and styles."
+      ],
+      "botão": [
+        "button"
+      ],
+      "botões": [
+        "buttons"
+      ],
+      "big button": [
+        "big button"
+      ],
+      "links": [
+        "links"
+      ],
+      "custom adm": [
+        "custom adm"
+      ],
+      "Verde Institucional": [
+        "Institutional Green"
+      ],
+      "Verde Escuro": [
+        "Dark Green"
+      ],
+      "Verde Esmeralda": [
+        "Emerald Green"
+      ],
+      "Grafite Escuro": [
+        "Dark Graphite"
+      ],
+      "Azul": [
+        "Blue"
+      ],
+      "Azul Escuro": [
+        "Dark Blue"
+      ],
+      "Coral / Vermelho": [
+        "Coral / Red"
+      ],
+      "Dourado / Amarelo": [
+        "Gold / Yellow"
+      ],
+      "Cinza Claro": [
+        "Light Gray"
+      ],
+      "Branco": [
+        "White"
+      ],
+      "Clique Aqui": [
+        "Click Here"
+      ],
+      "Novo Botão": [
+        "New Button"
+      ],
+      "Configurações dos Botões": [
+        "Button Settings"
+      ],
+      "Alinhamento": [
+        "Alignment"
+      ],
+      "Esquerda": [
+        "Left"
+      ],
+      "Centralizado": [
+        "Center"
+      ],
+      "Direita": [
+        "Right"
+      ],
+      "Colunas por Linha": [
+        "Columns per Row"
+      ],
+      "Automático / Adaptativo (até 5)": [
+        "Automatic / Adaptive (up to 5)"
+      ],
+      "1 Coluna (Largura Total)": [
+        "1 Column (Full Width)"
+      ],
+      "2 Colunas": [
+        "2 Columns"
+      ],
+      "3 Colunas": [
+        "3 Columns"
+      ],
+      "4 Colunas": [
+        "4 Columns"
+      ],
+      "5 Colunas": [
+        "5 Columns"
+      ],
+      "Estilo Visual": [
+        "Visual Style"
+      ],
+      "Padrão Branco Institucional": [
+        "Default Institutional White"
+      ],
+      "Verde Institucional (#01913a)": [
+        "Institutional Green (#01913a)"
+      ],
+      "Contorno (Outline)": [
+        "Outline"
+      ],
+      "Bordas Arredondadas (Pill)": [
+        "Rounded Borders (Pill)"
+      ],
+      "Links dos Botões": [
+        "Button Links"
+      ],
+      "Botão ": [
+        "Button "
+      ],
+      "(Sem texto)": [
+        "(No text)"
+      ],
+      "URL / Destino do Link": [
+        "URL / Link Destination"
+      ],
+      "Abrir link em nova aba (_blank)": [
+        "Open link in a new tab (_blank)"
+      ],
+      "Cores Personalizadas": [
+        "Custom Colors"
+      ],
+      "Cor de Fundo do Botão:": [
+        "Button Background Color:"
+      ],
+      "Cor do Texto:": [
+        "Text Color:"
+      ],
+      "Texto do botão...": [
+        "Button text..."
+      ],
+      "Link URL (https://...)": [
+        "Link URL (https://...)"
+      ],
+      "Destino do Link": [
+        "Link Destination"
+      ],
+      "Remover Botão": [
+        "Remove Button"
+      ],
+      "Adicionar Botão": [
+        "Add Button"
+      ],
+      "Adicionar Botão (até 5)": [
+        "Add Button (up to 5)"
+      ]
+    }
+  }
+}

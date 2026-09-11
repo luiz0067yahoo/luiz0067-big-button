@@ -1,0 +1,166 @@
+# Copyright (C) 2026 Luiz Fernando Brogliatto Ferreira
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: luiz0067 Big Button 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/luiz0067yahoo/luiz0067-big-button/issues\n"
+"POT-Creation-Date: 2026-09-11 17:00:00+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Luiz Fernando Brogliatto Ferreira\n"
+"Language-Team: Português\n"
+"Language: pt_BR\n"
+"X-Generator: Poedit 3.0\n"
+"X-Domain: luiz0067-big-button\n"
+
+msgid "Botões Grandes"
+msgstr ""
+
+msgid "Quantidade de até 5 botões por linha com links e estilos personalizáveis."
+msgstr ""
+
+msgid "botão"
+msgstr ""
+
+msgid "botões"
+msgstr ""
+
+msgid "big button"
+msgstr ""
+
+msgid "links"
+msgstr ""
+
+msgid "custom adm"
+msgstr ""
+
+msgid "Verde Institucional"
+msgstr ""
+
+msgid "Verde Escuro"
+msgstr ""
+
+msgid "Verde Esmeralda"
+msgstr ""
+
+msgid "Grafite Escuro"
+msgstr ""
+
+msgid "Azul"
+msgstr ""
+
+msgid "Azul Escuro"
+msgstr ""
+
+msgid "Coral / Vermelho"
+msgstr ""
+
+msgid "Dourado / Amarelo"
+msgstr ""
+
+msgid "Cinza Claro"
+msgstr ""
+
+msgid "Branco"
+msgstr ""
+
+msgid "Clique Aqui"
+msgstr ""
+
+msgid "Novo Botão"
+msgstr ""
+
+msgid "Configurações dos Botões"
+msgstr ""
+
+msgid "Alinhamento"
+msgstr ""
+
+msgid "Esquerda"
+msgstr ""
+
+msgid "Centralizado"
+msgstr ""
+
+msgid "Direita"
+msgstr ""
+
+msgid "Colunas por Linha"
+msgstr ""
+
+msgid "Automático / Adaptativo (até 5)"
+msgstr ""
+
+msgid "1 Coluna (Largura Total)"
+msgstr ""
+
+msgid "2 Colunas"
+msgstr ""
+
+msgid "3 Colunas"
+msgstr ""
+
+msgid "4 Colunas"
+msgstr ""
+
+msgid "5 Colunas"
+msgstr ""
+
+msgid "Estilo Visual"
+msgstr ""
+
+msgid "Padrão Branco Institucional"
+msgstr ""
+
+msgid "Verde Institucional (#01913a)"
+msgstr ""
+
+msgid "Contorno (Outline)"
+msgstr ""
+
+msgid "Bordas Arredondadas (Pill)"
+msgstr ""
+
+msgid "Links dos Botões"
+msgstr ""
+
+msgid "Botão "
+msgstr ""
+
+msgid "(Sem texto)"
+msgstr ""
+
+msgid "URL / Destino do Link"
+msgstr ""
+
+msgid "Abrir link em nova aba (_blank)"
+msgstr ""
+
+msgid "Cores Personalizadas"
+msgstr ""
+
+msgid "Cor de Fundo do Botão:"
+msgstr ""
+
+msgid "Cor do Texto:"
+msgstr ""
+
+msgid "Texto do botão..."
+msgstr ""
+
+msgid "Link URL (https://...)"
+msgstr ""
+
+msgid "Destino do Link"
+msgstr ""
+
+msgid "Remover Botão"
+msgstr ""
+
+msgid "Adicionar Botão"
+msgstr ""
+
+msgid "Adicionar Botão (até 5)"
+msgstr ""

@@ -1,0 +1,174 @@
+/**
+ * luiz0067 Big Button - Estilos Frontend e Canvas
+ *
+ * @package Luiz0067_Big_Button
+ * @version 1.0.0
+ */
+
+/* Container principal de botões */
+.block.big-button,
+.big-button {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 12px;
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+/* Modificadores de Alinhamento */
+.big-button.big-button-align-left {
+	justify-content: flex-start;
+	text-align: left;
+}
+
+.big-button.big-button-align-center {
+	justify-content: center;
+	text-align: center;
+}
+
+.big-button.big-button-align-right {
+	justify-content: flex-end;
+	text-align: right;
+}
+
+/* Botão individual base (.btn-btn preservado para total compatibilidade retroativa) */
+.btn-btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 52px;
+	min-width: 140px;
+	padding: 12px 24px;
+	margin: 3px;
+	background: #ffffff;
+	color: #333333;
+	border: 2px solid #e2e8f0;
+	border-radius: 6px;
+	text-decoration: none !important;
+	font-family: inherit;
+	font-size: 1.05rem;
+	font-weight: 600;
+	line-height: 1.35;
+	text-align: center;
+	cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.06);
+	transition: all 0.25s ease-in-out;
+	box-sizing: border-box;
+	word-break: break-word;
+}
+
+/* Efeito Hover e Focus com Verde Institucional da Prefeitura (#01913a) */
+.btn-btn:hover,
+.btn-btn:focus {
+	background: #01913a;
+	color: #ffffff !important;
+	border-color: #01913a;
+	transform: translateY(-2px);
+	box-shadow: 0 6px 14px rgba(1, 145, 58, 0.25);
+	outline: none;
+}
+
+.btn-btn:active {
+	transform: translateY(0);
+	box-shadow: 0 2px 4px rgba(1, 145, 58, 0.2);
+}
+
+/* Conteúdo interno de texto */
+.btn-btn .rich-text,
+.btn-btn .btn-text {
+	display: inline-block;
+	color: inherit;
+}
+
+/* Variantes de Estilo */
+/* 1. Verde Institucional */
+.btn-btn.btn-style-institutional {
+	background: #01913a;
+	color: #ffffff !important;
+	border-color: #01913a;
+}
+
+.btn-btn.btn-style-institutional:hover,
+.btn-btn.btn-style-institutional:focus {
+	background: #006828;
+	border-color: #006828;
+	color: #ffffff !important;
+	box-shadow: 0 6px 14px rgba(0, 104, 40, 0.3);
+}
+
+/* 2. Contorno / Outline */
+.btn-btn.btn-style-outline {
+	background: transparent;
+	color: #01913a;
+	border: 2px solid #01913a;
+}
+
+.btn-btn.btn-style-outline:hover,
+.btn-btn.btn-style-outline:focus {
+	background: #01913a;
+	color: #ffffff !important;
+	border-color: #01913a;
+}
+
+/* 3. Arredondado / Pill */
+.btn-btn.btn-style-pill {
+	border-radius: 50px;
+	padding: 12px 30px;
+}
+
+/* Controle de Colunas (1 a 5 botões por linha) */
+.big-button.big-button-cols-1 .btn-btn {
+	flex: 0 0 100%;
+	max-width: 100%;
+}
+
+.big-button.big-button-cols-2 .btn-btn {
+	flex: 0 0 calc(50% - 6px);
+	max-width: calc(50% - 6px);
+}
+
+.big-button.big-button-cols-3 .btn-btn {
+	flex: 0 0 calc(33.333% - 8px);
+	max-width: calc(33.333% - 8px);
+}
+
+.big-button.big-button-cols-4 .btn-btn {
+	flex: 0 0 calc(25% - 9px);
+	max-width: calc(25% - 9px);
+}
+
+.big-button.big-button-cols-5 .btn-btn {
+	flex: 0 0 calc(20% - 10px);
+	max-width: calc(20% - 10px);
+}
+
+/* Responsividade para tablets e smartphones */
+@media screen and (max-width: 992px) {
+	.big-button.big-button-cols-4 .btn-btn,
+	.big-button.big-button-cols-5 .btn-btn {
+		flex: 0 0 calc(50% - 6px);
+		max-width: calc(50% - 6px);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.big-button {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.big-button .btn-btn,
+	.big-button.big-button-cols-1 .btn-btn,
+	.big-button.big-button-cols-2 .btn-btn,
+	.big-button.big-button-cols-3 .btn-btn,
+	.big-button.big-button-cols-4 .btn-btn,
+	.big-button.big-button-cols-5 .btn-btn {
+		flex: 0 0 100%;
+		width: 100%;
+		max-width: 100%;
+		margin: 0;
+	}
+}

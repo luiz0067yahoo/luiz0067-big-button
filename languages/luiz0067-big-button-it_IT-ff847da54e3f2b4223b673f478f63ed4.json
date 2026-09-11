@@ -1,0 +1,165 @@
+{
+  "translation-revision-date": "2026-09-11 17:00:00+0000",
+  "generator": "WP-CLI/2.x",
+  "source": "assets/js/block.js",
+  "domain": "luiz0067-big-button",
+  "locale_data": {
+    "luiz0067-big-button": {
+      "": {
+        "domain": "luiz0067-big-button",
+        "lang": "it_IT",
+        "plural-forms": "nplurals=2; plural=(n != 1);"
+      },
+      "Botões Grandes": [
+        "Pulsanti Grandi"
+      ],
+      "Quantidade de até 5 botões por linha com links e estilos personalizáveis.": [
+        "Fino a 5 pulsanti per riga con collegamenti e stili personalizzabili."
+      ],
+      "botão": [
+        "pulsante"
+      ],
+      "botões": [
+        "pulsanti"
+      ],
+      "big button": [
+        "pulsante grande"
+      ],
+      "links": [
+        "collegamenti"
+      ],
+      "custom adm": [
+        "custom adm"
+      ],
+      "Verde Institucional": [
+        "Verde Istituzionale"
+      ],
+      "Verde Escuro": [
+        "Verde Scuro"
+      ],
+      "Verde Esmeralda": [
+        "Verde Smeraldo"
+      ],
+      "Grafite Escuro": [
+        "Grafite Scuro"
+      ],
+      "Azul": [
+        "Blu"
+      ],
+      "Azul Escuro": [
+        "Blu Scuro"
+      ],
+      "Coral / Vermelho": [
+        "Corallo / Rosso"
+      ],
+      "Dourado / Amarelo": [
+        "Dorato / Giallo"
+      ],
+      "Cinza Claro": [
+        "Grigio Chiaro"
+      ],
+      "Branco": [
+        "Bianco"
+      ],
+      "Clique Aqui": [
+        "Clicca Qui"
+      ],
+      "Novo Botão": [
+        "Nuovo Pulsante"
+      ],
+      "Configurações dos Botões": [
+        "Impostazioni Pulsanti"
+      ],
+      "Alinhamento": [
+        "Allineamento"
+      ],
+      "Esquerda": [
+        "Sinistra"
+      ],
+      "Centralizado": [
+        "Centrato"
+      ],
+      "Direita": [
+        "Destra"
+      ],
+      "Colunas por Linha": [
+        "Colonne per Riga"
+      ],
+      "Automático / Adaptativo (até 5)": [
+        "Automatico / Adattivo (fino a 5)"
+      ],
+      "1 Coluna (Largura Total)": [
+        "1 Colonna (Larghezza Intera)"
+      ],
+      "2 Colunas": [
+        "2 Colonne"
+      ],
+      "3 Colunas": [
+        "3 Colonne"
+      ],
+      "4 Colunas": [
+        "4 Colonne"
+      ],
+      "5 Colunas": [
+        "5 Colonne"
+      ],
+      "Estilo Visual": [
+        "Stile Visivo"
+      ],
+      "Padrão Branco Institucional": [
+        "Predefinito Bianco Istituzionale"
+      ],
+      "Verde Institucional (#01913a)": [
+        "Verde Istituzionale (#01913a)"
+      ],
+      "Contorno (Outline)": [
+        "Contorno (Outline)"
+      ],
+      "Bordas Arredondadas (Pill)": [
+        "Bordi Arrotondati (Pill)"
+      ],
+      "Links dos Botões": [
+        "Collegamenti dei Pulsanti"
+      ],
+      "Botão ": [
+        "Pulsante "
+      ],
+      "(Sem texto)": [
+        "(Senza testo)"
+      ],
+      "URL / Destino do Link": [
+        "URL / Destinazione del Collegamento"
+      ],
+      "Abrir link em nova aba (_blank)": [
+        "Apri collegamento in una nuova scheda (_blank)"
+      ],
+      "Cores Personalizadas": [
+        "Colori Personalizzati"
+      ],
+      "Cor de Fundo do Botão:": [
+        "Colore di Sfondo del Pulsante:"
+      ],
+      "Cor do Texto:": [
+        "Colore del Testo:"
+      ],
+      "Texto do botão...": [
+        "Testo del pulsante..."
+      ],
+      "Link URL (https://...)": [
+        "URL Collegamento (https://...)"
+      ],
+      "Destino do Link": [
+        "Destinazione del Collegamento"
+      ],
+      "Remover Botão": [
+        "Rimuovi Pulsante"
+      ],
+      "Adicionar Botão": [
+        "Aggiungi Pulsante"
+      ],
+      "Adicionar Botão (até 5)": [
+        "Aggiungi Pulsante (fino a 5)"
+      ]
+    }
+  }
+}
