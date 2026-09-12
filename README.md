@@ -7,6 +7,8 @@
 
 Plugin WordPress completo e autossuficiente que adiciona um Custom Block Gutenberg moderno e flexível para **Botões Grandes (Big Button)** (`luiz0067/big-button`), com suporte nativo a até 5 botões por linha, links rápidos, estilos visuais customizáveis e total compatibilidade retroativa com o bloco legado `cms-adm/big-button` e a classe `.btn-btn`.
 
+![Demonstração luiz0067 Big Button](screenshot.png)
+
 ---
 
 ## 📌 Sobre o Plugin
@@ -14,6 +16,15 @@ Plugin WordPress completo e autossuficiente que adiciona um Custom Block Gutenbe
 Desenvolvido para portais institucionais, governamentais, prefeituras e websites corporativos que necessitam de botões de destaque, acesso rápido e navegação em grade, o **luiz0067 Big Button** oferece uma experiência visual limpa e fluida dentro do editor Gutenberg.
 
 O plugin preserva o clássico padrão visual com destaque para o verde institucional da prefeitura (`#01913a`), mantendo as classes legadas `.big-button` e `.btn-btn`, além de permitir adicionar e remover botões dinamicamente (de 1 a 5 por linha) diretamente na área de edição visual ou pelo painel lateral.
+
+---
+
+## 📸 Screenshots
+
+| 🎨 Painel de Edição no Gutenberg (WYSIWYG) | 🌐 Visualização Pública no Front-end |
+| :---: | :---: |
+| [![Editor Gutenberg](assets/screenshot-1.png)](assets/screenshot-1.png) | [![Frontend Público](assets/screenshot-2.png)](assets/screenshot-2.png) |
+| *Edição rápida inline com inputs de URL e barra lateral de estilos* | *Renderização responsiva dos botões com destaque e hover institucional* |
 
 ---
 
@@ -61,9 +72,12 @@ luiz0067-big-button/
 ├── assets/
 │   ├── js/
 │   │   └── block.js           # Lógica do bloco Gutenberg (ES5 / wp.element.createElement)
-│   └── css/
-│       ├── editor.css         # Estilos específicos do editor Gutenberg
-│       └── style.css          # Estilos do front-end público e canvas
+│   ├── css/
+│   │   ├── editor.css         # Estilos específicos do editor Gutenberg
+│   │   └── style.css          # Estilos do front-end público e canvas
+│   ├── screenshot-1.png       # Captura de tela da edição no Gutenberg
+│   └── screenshot-2.png       # Captura de tela do resultado no front-end
+├── screenshot.png             # Imagem de demonstração / banner visual do projeto
 ├── readme.txt                  # Metadados oficiais WordPress.org
 └── README.md                  # Documentação completa
 ```
